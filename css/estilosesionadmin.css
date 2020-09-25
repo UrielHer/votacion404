@@ -1,0 +1,29 @@
+*{margin: 0; padding: 0;}
+
+body{
+	font-family: monospace;
+	background:url(../imagenes/fondo.jpg);
+}
+
+.cabecera{
+	background: #2DA7B1;
+	width: 100%; /*ancho*/
+	height: 100px; /*alto*/
+}
+
+.cabecera ul li a{
+	color: white;
+	text-decoration: none;
+	font-size: 4rem;
+	position: fixed;
+	margin-top: 15px;
+	margin-left: 50px;
+}
+
+.cerrar{
+	text-decoration: none;
+	color: #fff;
+	float: right;
+	margin-top: 35px;
+	margin-right: 50px;
+}

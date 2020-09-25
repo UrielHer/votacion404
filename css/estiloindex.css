@@ -1,0 +1,46 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	background:url(../imagenes/fondo.jpg);
+ }
+
+ header{
+ 	overflow: hidden;
+ }
+
+.cabecera{
+	background: #000;
+	width: 100%; /*ancho*/
+	height: 100px; /*alto*/
+}
+
+.cabecera ul li a{
+	color: white;
+	text-decoration: none;
+	font-size: 4rem;
+	position: fixed;
+	margin-top: 15px;
+	margin-left: 50px;
+}
+
+.opciones{
+	float: right;
+	margin-top: 35px;
+	margin-right: 50px;
+}
+
+.opciones a{
+	text-decoration: none;
+	color: #fff;
+}
+
+.tumbnail{
+	width: 250px;
+	height: 300px;
+	display: inline-block;
+	overflow: hidden;
+	position: relative;
+}

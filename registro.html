@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>Registro | AMBU</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0" charset="utf-8" >
+	<link rel="stylesheet" type="text/css" href="css/estiloregistro.css">
+	<script type="text/javascript" src="js/formulario.js"></script>
+
+<body>
+	<div class="cabecera">
+		<header>
+			<ul>
+				<li><a href="index.php">Inicio</a></li>
+			</ul>
+			<nav class="opciones">
+				<a id="" href="iniciarsesion.html">Inicia Sesión</a>
+			</nav>
+		</header>
+	</div>
+
+	<form>
+		<h2>Registro</h2>
+		<br>
+			Nombres: <input type="text" name="nombre" id="nombre" size="10"/>
+		<br>
+			Apellido Paterno: <input type="text" name="apellidoP" size="10"/>
+		<br/>
+			Apellido Materno: <input type="text" name="apellidoM" size="10"/>
+		<br/>
+			Edad: <input type="number" name="edad" min="1" max="100" size="5">
+		<br/>
+			Sexo:</br>
+			Femenino:<input type="radio" name="genero" value="F"/>
+			Masculino:<input type="radio" name="genero" value="M"/>
+			Otro:<input type="radio" name="genero" value="O"/>
+		<br/>
+
+		<!--Grado de estudio:<select name="Grado">
+			<option value="1">1er Cuatrimestre</option>
+			<option value="2">2do Cuatrimestre</option>
+			<option value="3">3er Cuatrimestre</option>
+			<option value="4">4to Cuatrimestre</option>
+			<option value="5">5to Cuatrimestre</option>
+			<option value="6">6to Cuatrimestre</option>
+		</select><br>
+		<br/>
+			Matricula: <input type="number" name="matricula"/>-->
+		<br/>
+			Correo: <input type="mail" name="email"/>
+		<br/>
+			Contraseña:<input type="password" name="pass"/>
+		<br/>
+		<br/>
+			<input type="button" value="REGISTRAR" id="botonE" onclick="recuperarDatosFormulario();" />
+	</form>
+
+	<div id="valoresRecuperados"></div>
+</body>
+</html>
